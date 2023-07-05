@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+:root {
+    margin: auto;
+}
+img.imagem {
+    width: 100%;
+    height: 698px;
+    border-radius: 10px;
+    position: absolute;
+}
+img.imagema {
+    display: inline;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 30%;
+
+}

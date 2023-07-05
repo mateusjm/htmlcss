@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: bebasneue;
+    src: url(bebas_neue/BebasNeue-Regular.ttf);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: auto;
+
+}
+body {
+    background-color:#89CDA5;
+}
+
+
+header {  
+    
+    background-image: linear-gradient(to bottom,#54ed96c8,#031c0edb);
+    
+}
+
+h1 {
+    font-family: bebasneue;
+    color: white; 
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px; 
+}
+
+div {
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+      
+}
+
+div:hover {
+    background-color: #22733F;
+    border-radius: 5px;
+    
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+            
+}
+
+#mascote {
+    font-family: idroid;
+    color: #1B5936;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(88, 86, 86);
+    padding: 20px;
+}
+
+#paragrafos {
+    text-align: justify;
+    font-weight: normal;
+    text-indent: 30px;
+    padding: 20px;
+}
+
+#versao {
+    font-family: idroid;
+    color: #1B5936;
+    text-align: left;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right,#66ffa849, #a6b8ae07);
+    border-radius: 10px;
+    padding: 2px;
+    text-indent: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+
+a:hover {
+    color: white;
+    background-color: #1B5936;
+}
+
+picture {
+
+}
